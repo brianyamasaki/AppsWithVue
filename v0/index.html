@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My first Vue app</title>
+  <link rel="stylesheet" href="app.css" />
+  <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+  <!-- Note this section has an id="app" -->
+  <div id="app">
+    <h1>{{ header }}</h1>
+    <h2>{{ message }}</h2>
+    <p>
+
+    </p>
+    <p>To get back to the previous page, 
+      hit the Back button on the browser or click on this <a href="../index.html">Link</a>
+    </p>
+  </div>
+<!-- This is the Vue code -->
+  <script>
+    var app = new Vue({
+      el: '#app', /* This tells Vue to execute the code in the item with id="app" */
+      data: {
+        message: 'Hello Christopher!',
+        header: 'Welcome to your first app'
+      }
+    })
+  </script>
+</body>
+</html>
