@@ -9,3 +9,7 @@ body {
   background-position: center -80px, center 400px;
   text-align: center;
 }
+
+h2 {
+  text-transform: uppercase;
+}
