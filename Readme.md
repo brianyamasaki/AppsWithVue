@@ -13,9 +13,9 @@ These lessons use an intermediate level of HTML and CSS, but no understanding of
 You'll need the following tools to start development.
 
 - Install and manage source code using [git](www.git-scm.org)
-- Create a free account at [GitHub](www.github.com).
-- You'll need [the node ecosystem](www.nodejs.org) to download tools, frameworks and code libraries. Install node on your computer.
-- I recommend Microsoft's [Visual Studio Code](https://code.visualstudio.com/download) as your editor. Download and install it on your computer.
+- Create a free account at [GitHub](www.github.com). You can create and manage your own projects on GitHub and allow others to view your code and help you debug.
+- You'll need [the node ecosystem](www.nodejs.org) to download tools, frameworks and code libraries. [Download and install node](https://nodejs.org/en/download/) on your computer.
+- I recommend Microsoft's [Visual Studio Code](https://code.visualstudio.com/download) as your editor. Download and install it on your computer. Once you start to edit code, it will recommend extensions and plug-ins to make your life much easier.
 - Learn how to use your terminal program for the command line.
 
 ## How to start development
@@ -24,7 +24,7 @@ You'll need the following tools to start development.
 2. Type `git clone https://github.com/brianyamasaki/AppsWithVue`. This will download the source code to your machine in a directory named `AppsWithVue`.
 3. Change your current directory into AppsWithVue by typing `cd AppsWithVue`.
 4. Download your libraries and frameworks by typing `npm install`. This could take a few minutes to download everything.
-5. Type `npm start` and the project will get compiled and a webserver will start serving the project.
+5. Type `npm start` at a command prompt and the project will get compiled and a webserver will start serving the project. The server will continue to run until you stop it, either with a <ctrl>-c or if you terminate the command terminal.
 6. Start a browser and browse to `localhost:4000`. You should see your website in the browser.
 
 ## What's in the project

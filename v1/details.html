@@ -15,27 +15,19 @@
       <div class="inner">
         <h3 class="masthead-brand">Apps With Vue - V1</h3>
         <nav class="nav nav-masthead justify-content-center">
-          <a class="nav-link active" href="#">Home</a>
-          <a class="nav-link" href="details.html">Details</a>
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link active" href="#">Details</a>
         </nav>
       </div>
     </header>
   
     <div id="app">
-      <h1>{{ header }}</h1>
-      <h2>{{ message }}</h2>
+      <h1>This is a whole new page</h1>
       <p>
-        Open up your text editor and modify index.html in the V1 folder. Specifically, change the code in the 
-        <strong>&lt;script&gt;</strong> tag. Change <strong>Hello World</strong> to say hello to yourself. Look at the browser 
-        and you'll see that the webpage changes immediately. This is called Hot Reloading and is 
-        one reason we are using Parcel-builder.
+        No code on this page. 
       </p>
-
-      <p>
-        Note that you changed the value of a variable in the program and it changed the text on the page. 
-        The code automatically replaced the text on the page with the variable. 
-      </p>
-  
+      <img src="../assets/divided circle.svg" style="width:300px"/>
+      <img src="../assets/dumbbell.svg" style="width:300px" />
     </div>
   
     <footer class="mastfoot mt-auto">
@@ -46,14 +38,5 @@
         </div>
     </footer>
   </div>
-  <script>
-    var app = new Vue({
-      el: '#app',
-      data: {
-        message: 'Hello World!',
-        header: 'Welcome to your first app'
-      }
-    })
-  </script>
 </body>
 </html>
